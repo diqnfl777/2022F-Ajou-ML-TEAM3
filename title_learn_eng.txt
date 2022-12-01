@@ -52,8 +52,17 @@ Epochs: 3 | Train Loss:  0.074                 | Train Accuracy:  0.805         
 Epochs: 4 | Train Loss:  0.050                 | Train Accuracy:  0.881                 | Val Loss:  0.106                 | Val Accuracy:  0.710
 Test Accuracy:  0.656
 
-파일 이름: 진행중
+파일 이름: drop05.multiLangModel
 train: 14048 val: 1756 test: 1757
 dropout = 0.5
 LR = 0.000005
 위와 같은 환경에서 batch 수 와 데이터 수만 증가
+100%|██████████| 1171/1171 [24:10<00:00,  1.24s/it]
+Epochs: 1 | Train Loss:  0.131                 | Train Accuracy:  0.507                 | Val Loss:  0.092                 | Val Accuracy:  0.667
+100%|██████████| 1171/1171 [24:10<00:00,  1.24s/it]
+Epochs: 2 | Train Loss:  0.073                 | Train Accuracy:  0.745                 | Val Loss:  0.082                 | Val Accuracy:  0.691
+100%|██████████| 1171/1171 [24:10<00:00,  1.24s/it]
+Epochs: 3 | Train Loss:  0.052                 | Train Accuracy:  0.829                 | Val Loss:  0.083                 | Val Accuracy:  0.700
+100%|██████████| 1171/1171 [24:10<00:00,  1.24s/it]
+Epochs: 4 | Train Loss:  0.042                 | Train Accuracy:  0.874                 | Val Loss:  0.083                 | Val Accuracy:  0.703
+Test Accuracy:  0.703
