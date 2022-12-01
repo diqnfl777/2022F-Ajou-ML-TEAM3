@@ -66,3 +66,18 @@ Epochs: 3 | Train Loss:  0.052                 | Train Accuracy:  0.829         
 100%|██████████| 1171/1171 [24:10<00:00,  1.24s/it]
 Epochs: 4 | Train Loss:  0.042                 | Train Accuracy:  0.874                 | Val Loss:  0.083                 | Val Accuracy:  0.703
 Test Accuracy:  0.703
+
+
+파일 이름: 현재 상원님 진행중
+train: 14048 val: 1756 test: 1757
+dropout = 0.4
+LR = 0.000005
+위와 같은 환경에서 dropout만 0.4
+결과:
+
+파일 이름: 현재 성진호 진행중
+train: 14048 val: 1756 test: 1757
+dropout = 0.6
+LR = 0.000005
+위와 같은 환경에서 dropout만 0.6
+결과:
