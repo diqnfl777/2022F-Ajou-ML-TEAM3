@@ -1,0 +1,44 @@
+파일 이름: dropout05
+train: 14048 val: 1756 test: 1757
+dropout = 0.5
+LR = 0.000001
+훈련 결과:
+100%|██████████| 2810/2810 [25:35<00:00,  1.83it/s]
+Epochs: 1 | Train Loss:  0.348                 | Train Accuracy:  0.483                 | Val Loss:  0.275                 | Val Accuracy:  0.591
+100%|██████████| 2810/2810 [25:40<00:00,  1.82it/s]
+Epochs: 2 | Train Loss:  0.238                 | Train Accuracy:  0.657                 | Val Loss:  0.231                 | Val Accuracy:  0.646
+100%|██████████| 2810/2810 [25:40<00:00,  1.82it/s]
+Epochs: 3 | Train Loss:  0.193                 | Train Accuracy:  0.725                 | Val Loss:  0.212                 | Val Accuracy:  0.666
+100%|██████████| 2810/2810 [25:40<00:00,  1.82it/s]
+Epochs: 4 | Train Loss:  0.163                 | Train Accuracy:  0.773                 | Val Loss:  0.206                 | Val Accuracy:  0.684
+100%|██████████| 2810/2810 [25:40<00:00,  1.82it/s]
+Epochs: 5 | Train Loss:  0.138                 | Train Accuracy:  0.813                 | Val Loss:  0.201                 | Val Accuracy:  0.695
+Test Accuracy:  0.710
+
+파일 이름: e-5epoch7w_scheduler
+train: 7024 val: 878 test: 879
+dropout = 0.5
+LR = 0.00001
+훈련 결과:
+100%|██████████| 1004/1004 [12:04<00:00,  1.39it/s]
+Epochs: 1 | Train Loss:  0.204                 | Train Accuracy:  0.572                 | Val Loss:  0.156                 | Val Accuracy:  0.656
+100%|██████████| 1004/1004 [12:15<00:00,  1.36it/s]
+Epochs: 2 | Train Loss:  0.115                 | Train Accuracy:  0.764                 | Val Loss:  0.153                 | Val Accuracy:  0.671
+100%|██████████| 1004/1004 [12:16<00:00,  1.36it/s]
+Epochs: 3 | Train Loss:  0.067                 | Train Accuracy:  0.872                 | Val Loss:  0.163                 | Val Accuracy:  0.659
+100%|██████████| 1004/1004 [12:16<00:00,  1.36it/s]
+Epochs: 4 | Train Loss:  0.039                 | Train Accuracy:  0.934                 | Val Loss:  0.174                 | Val Accuracy:  0.674
+100%|██████████| 1004/1004 [12:17<00:00,  1.36it/s]
+Epochs: 5 | Train Loss:  0.023                 | Train Accuracy:  0.961                 | Val Loss:  0.190                 | Val Accuracy:  0.671
+100%|██████████| 1004/1004 [12:17<00:00,  1.36it/s]
+Epochs: 6 | Train Loss:  0.017                 | Train Accuracy:  0.972                 | Val Loss:  0.210                 | Val Accuracy:  0.658
+100%|██████████| 1004/1004 [12:17<00:00,  1.36it/s]
+Epochs: 7 | Train Loss:  0.011                 | Train Accuracy:  0.983                 | Val Loss:  0.209                 | Val Accuracy:  0.665
+Test Accuracy:  0.675
+
+파일 이름: AdamWe-5epoch7w_scheduler
+train: 7024 val: 878 test: 879
+dropout = 0.5
+LR = 0.00001
+Adam 에서 AdamW로 변환
+훈련 결과:
