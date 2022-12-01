@@ -75,9 +75,19 @@ LR = 0.000005
 위와 같은 환경에서 dropout만 0.4
 결과:
 
-파일 이름: 현재 성진호 진행중
+파일 이름: drop06.multiLangModel
 train: 14048 val: 1756 test: 1757
 dropout = 0.6
 LR = 0.000005
 위와 같은 환경에서 dropout만 0.6
 결과:
+100%|██████████| 1004/1004 [23:34<00:00,  1.41s/it]
+Epochs: 1 | Train Loss:  0.116                 | Train Accuracy:  0.496                 | Val Loss:  0.084                 | Val Accuracy:  0.658
+100%|██████████| 1004/1004 [23:32<00:00,  1.41s/it]
+Epochs: 2 | Train Loss:  0.066                 | Train Accuracy:  0.735                 | Val Loss:  0.072                 | Val Accuracy:  0.691
+100%|██████████| 1004/1004 [23:34<00:00,  1.41s/it]
+Epochs: 3 | Train Loss:  0.048                 | Train Accuracy:  0.820                 | Val Loss:  0.071                 | Val Accuracy:  0.701
+100%|██████████| 1004/1004 [23:33<00:00,  1.41s/it]
+Epochs: 4 | Train Loss:  0.039                 | Train Accuracy:  0.861                 | Val Loss:  0.070                 | Val Accuracy:  0.699
+Test Accuracy:  0.698
+
