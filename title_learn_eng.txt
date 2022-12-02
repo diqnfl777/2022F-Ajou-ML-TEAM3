@@ -132,3 +132,17 @@ Epochs: 3 | Train Loss:  0.058                 | Train Accuracy:  0.785         
 100%|██████████| 1004/1004 [23:57<00:00,  1.43s/it]
 Epochs: 4 | Train Loss:  0.049                 | Train Accuracy:  0.828                 | Val Loss:  0.075                 | Val Accuracy:  0.691
 Test Accuracy:  0.682
+
+파일 이름: 저장 안함
+train: 14048 val: 1756 test: 1757
+dropout = 0.7
+LR = 0.000005
+dropout = 0.7로 변경, 데이터 10% 사용
+100%|██████████| 1004/1004 [23:59<00:00,  1.43s/it]
+Epochs: 1 | Train Loss:  0.120                 | Train Accuracy:  0.475                 | Val Loss:  0.086                 | Val Accuracy:  0.650
+100%|██████████| 1004/1004 [23:57<00:00,  1.43s/it]
+Epochs: 2 | Train Loss:  0.070                 | Train Accuracy:  0.724                 | Val Loss:  0.076                 | Val Accuracy:  0.685
+100%|██████████| 1004/1004 [23:58<00:00,  1.43s/it]
+Epochs: 3 | Train Loss:  0.051                 | Train Accuracy:  0.807                 | Val Loss:  0.073                 | Val Accuracy:  0.696
+100%|██████████| 1004/1004 [23:59<00:00,  1.43s/it]
+Epochs: 4 | Train Loss:  0.042                 | Train Accuracy:  0.851                 | Val Loss:  0.073                 | Val Accuracy:  0.696
