@@ -68,7 +68,7 @@ Epochs: 4 | Train Loss:  0.042                 | Train Accuracy:  0.874         
 Test Accuracy:  0.703
 
 
-파일 이름: 현재 상원님 진행중
+파일 이름: 저장 안함
 train: 14048 val: 1756 test: 1757
 dropout = 0.4
 LR = 0.000005
@@ -130,5 +130,5 @@ Epochs: 2 | Train Loss:  0.078                 | Train Accuracy:  0.693         
 100%|██████████| 1004/1004 [23:56<00:00,  1.43s/it]
 Epochs: 3 | Train Loss:  0.058                 | Train Accuracy:  0.785                 | Val Loss:  0.075                 | Val Accuracy:  0.696
 100%|██████████| 1004/1004 [23:57<00:00,  1.43s/it]
-Epochs: 4 | Train Loss:  0.049                 | Train Accuracy:  0.828                 | Val Loss:  0.075 
+Epochs: 4 | Train Loss:  0.049                 | Train Accuracy:  0.828                 | Val Loss:  0.075                 | Val Accuracy:  0.691
 Test Accuracy:  0.682
