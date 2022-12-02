@@ -74,6 +74,18 @@ dropout = 0.4
 LR = 0.000005
 위와 같은 환경에서 dropout만 0.4
 결과:
+100%|██████████| 1405/1405 [22:36<00:00,  1.04it/s]
+Epochs: 1 | Train Loss:  0.164                 | Train Accuracy:  0.487                 | Val Loss:  0.115                 | Val Accuracy:  0.663
+100%|██████████| 1405/1405 [22:41<00:00,  1.03it/s]
+Epochs: 2 | Train Loss:  0.090                 | Train Accuracy:  0.735                 | Val Loss:  0.097                 | Val Accuracy:  0.698
+100%|██████████| 1405/1405 [22:39<00:00,  1.03it/s]
+Epochs: 3 | Train Loss:  0.060                 | Train Accuracy:  0.832                 | Val Loss:  0.105                 | Val Accuracy:  0.687
+100%|██████████| 1405/1405 [22:40<00:00,  1.03it/s]
+Epochs: 4 | Train Loss:  0.038                 | Train Accuracy:  0.902                 | Val Loss:  0.106                 | Val Accuracy:  0.687
+100%|██████████| 1405/1405 [22:39<00:00,  1.03it/s]
+Epochs: 5 | Train Loss:  0.024                 | Train Accuracy:  0.951                 | Val Loss:  0.113                 | Val Accuracy:  0.690
+100%|██████████| 1405/1405 [22:40<00:00,  1.03it/s]
+Epochs: 6 | Train Loss:  0.016                 | Train Accuracy:  0.968                 | Val Loss:  0.118                 | Val Accuracy:  0.686
 
 파일 이름: drop06.multiLangModel
 train: 14048 val: 1756 test: 1757
