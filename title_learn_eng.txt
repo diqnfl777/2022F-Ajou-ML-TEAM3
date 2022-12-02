@@ -91,3 +91,17 @@ Epochs: 3 | Train Loss:  0.048                 | Train Accuracy:  0.820         
 Epochs: 4 | Train Loss:  0.039                 | Train Accuracy:  0.861                 | Val Loss:  0.070                 | Val Accuracy:  0.699
 Test Accuracy:  0.698
 
+파일 이름: halfwithdrop07.multiLangModel
+train: 70245 val: 8781 test: 8781
+dropout = 0.7
+LR = 0.000005
+dropout = 0.7로 변경, 데이터 50% 사용
+100%|██████████| 5018/5018 [1:58:00<00:00,  1.41s/it]
+Epochs: 1 | Train Loss:  0.089                 | Train Accuracy:  0.613                 | Val Loss:  0.064                 | Val Accuracy:  0.719
+100%|██████████| 5018/5018 [1:58:02<00:00,  1.41s/it]
+Epochs: 2 | Train Loss:  0.052                 | Train Accuracy:  0.777                 | Val Loss:  0.058                 | Val Accuracy:  0.742
+100%|██████████| 5018/5018 [1:58:08<00:00,  1.41s/it]
+Epochs: 3 | Train Loss:  0.038                 | Train Accuracy:  0.844                 | Val Loss:  0.060                 | Val Accuracy:  0.742
+100%|██████████| 5018/5018 [1:58:03<00:00,  1.41s/it]
+Epochs: 4 | Train Loss:  0.029                 | Train Accuracy:  0.890                 | Val Loss:  0.061                 | Val Accuracy:  0.748
+Test Accuracy:  0.744
