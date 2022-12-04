@@ -1,0 +1,11 @@
+train: 57182(실사용:12584) val: 7148 test: 7148
+LR = 0.000005
+dropout = 0.7
+100%|██████████| 895/895 [23:17<00:00,  1.56s/it]
+Epochs: 1 | Train Loss:  0.140                 | Train Accuracy:  0.347                 | Val Loss:  0.095                 | Val Accuracy:  0.603
+100%|██████████| 895/895 [23:17<00:00,  1.56s/it]
+Epochs: 2 | Train Loss:  0.076                 | Train Accuracy:  0.698                 | Val Loss:  0.078                 | Val Accuracy:  0.680
+100%|██████████| 895/895 [23:24<00:00,  1.57s/it]
+Epochs: 3 | Train Loss:  0.057                 | Train Accuracy:  0.784                 | Val Loss:  0.076                 | Val Accuracy:  0.685
+100%|██████████| 895/895 [23:24<00:00,  1.57s/it]
+Epochs: 4 | Train Loss:  0.048                 | Train Accuracy:  0.830                 | Val Loss:  0.074                 | Val Accuracy:  0.693
