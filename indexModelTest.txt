@@ -14,3 +14,13 @@ Epochs: 4 | Train Loss:  0.048                 | Train Accuracy:  0.830         
 train: 1270 val: 159 test: 159
 LR = 0.00001
 dropout = 0.7
+100%|██████████| 908/908 [23:28<00:00,  1.55s/it]
+Epochs: 1 | Train Loss:  0.127                 | Train Accuracy:  0.415                 | Val Loss:  0.079                 | Val Accuracy:  0.679
+100%|██████████| 908/908 [23:35<00:00,  1.56s/it]
+Epochs: 2 | Train Loss:  0.064                 | Train Accuracy:  0.746                 | Val Loss:  0.061                 | Val Accuracy:  0.757
+100%|██████████| 908/908 [23:36<00:00,  1.56s/it]
+Epochs: 3 | Train Loss:  0.040                 | Train Accuracy:  0.852                 | Val Loss:  0.059                 | Val Accuracy:  0.763
+100%|██████████| 908/908 [23:36<00:00,  1.56s/it]
+Epochs: 4 | Train Loss:  0.025                 | Train Accuracy:  0.918                 | Val Loss:  0.058                 | Val Accuracy:  0.764
+100%|██████████| 908/908 [23:36<00:00,  1.56s/it]
+Epochs: 5 | Train Loss:  0.019                 | Train Accuracy:  0.946                 | Val Loss:  0.059                 | Val Accuracy:  0.765
