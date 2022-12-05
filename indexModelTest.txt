@@ -11,7 +11,7 @@ Epochs: 3 | Train Loss:  0.057                 | Train Accuracy:  0.784         
 Epochs: 4 | Train Loss:  0.048                 | Train Accuracy:  0.830                 | Val Loss:  0.074                 | Val Accuracy:  0.693
 
 
-train: 1270 val: 159 test: 159
+train: 12707 val: 1588 test: 1589
 LR = 0.00001
 dropout = 0.7
 100%|██████████| 908/908 [23:28<00:00,  1.55s/it]
