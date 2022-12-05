@@ -35,3 +35,16 @@ Epochs: 3 | Train Loss:  0.042                 | Train Accuracy:  0.846         
 100%|██████████| 908/908 [19:52<00:00,  1.31s/it]
 Epochs: 4 | Train Loss:  0.026                 | Train Accuracy:  0.912                 | Val Loss:  0.060                 | Val Accuracy:  0.761
  97%|█████████▋| 883/908 [19:20<00:32,  1.30s/it]
+
+
+weight_decay = 0.1 dropout=0.75
+100%|██████████| 908/908 [20:05<00:00,  1.33s/it]
+Epochs: 1 | Train Loss:  0.132                 | Train Accuracy:  0.374                 | Val Loss:  0.081                 | Val Accuracy:  0.682
+100%|██████████| 908/908 [20:05<00:00,  1.33s/it]
+Epochs: 2 | Train Loss:  0.065                 | Train Accuracy:  0.743                 | Val Loss:  0.061                 | Val Accuracy:  0.756
+100%|██████████| 908/908 [20:05<00:00,  1.33s/it]
+Epochs: 3 | Train Loss:  0.042                 | Train Accuracy:  0.845                 | Val Loss:  0.058                 | Val Accuracy:  0.762
+100%|██████████| 908/908 [20:06<00:00,  1.33s/it]
+Epochs: 4 | Train Loss:  0.026                 | Train Accuracy:  0.914                 | Val Loss:  0.059                 | Val Accuracy:  0.764
+100%|██████████| 908/908 [20:06<00:00,  1.33s/it]
+Epochs: 5 | Train Loss:  0.020                 | Train Accuracy:  0.940                 | Val Loss:  0.060                 | Val Accuracy:  0.764
