@@ -4,3 +4,7 @@ main 브랜치에는 다국어 제목 및 목차 모델, ldh 브랜치에는 koB
 
 ## koBERT 한글 제목 최고 모델
 https://drive.google.com/file/d/1sveUPVLxgZxFQvw2SOb7hiSGKD0lBGk-/view?usp=share_link
+## multiLang 다국어 제목 최고 모델
+https://drive.google.com/file/d/1eXM9cIPAPoJJnwvks4uh9qt3WWv41Zvc/view?usp=share_link
+## 목차 최고 모델
+https://drive.google.com/file/d/1M-WrZleS-0nx5UZcaMzjdk9WAJMkp8hG/view?usp=sharing
